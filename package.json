@@ -8,21 +8,20 @@
   ],
   "dependencies": {
     "dialog-component": "*",
+    "component-event": "*",
+    "component-inherit": "*",
+    "component-query": "*",
     "stringify": "^3.1.0"
   },
-  "component": {
-    "styles": [
-      "confirmation.css"
-    ],
-    "scripts": {
-      "confirmation": "index.js"
-    },
-    "templates": {
-      "confirmation": "confirmation.html"
-    }
-  },
+  "style": "confirmation.css",
   "browserify": {
     "transform": ["stringify"]
+  },
+  "browser": {
+    "dialog": "dialog-component",
+    "event": "component-event",
+    "inherit": "component-inherit",
+    "query": "component-query"
   },
   "repository": {
     "type": "git",

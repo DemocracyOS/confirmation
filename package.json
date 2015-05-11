@@ -7,7 +7,8 @@
     "component"
   ],
   "dependencies": {
-    "dialog-component": "*"
+    "dialog-component": "*",
+    "stringify": "^3.1.0"
   },
   "component": {
     "styles": [
@@ -19,6 +20,9 @@
     "templates": {
       "confirmation": "confirmation.html"
     }
+  },
+  "browserify": {
+    "transform": ["stringify"]
   },
   "repository": {
     "type": "git",

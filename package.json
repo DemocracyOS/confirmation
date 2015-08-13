@@ -1,5 +1,5 @@
 {
-  "name": "confirmation-component",
+  "name": "democracyos-confirmation",
   "description": "Confirmation component",
   "version": "0.0.5",
   "keywords": [
@@ -25,6 +25,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/component/confirmation.git"
+    "url": "https://github.com/DemocracyOS/confirmation.git"
   }
 }
